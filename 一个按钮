@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>笨蛋按钮</title>
+</head>
+<body>
+
+    <!-- 按钮 -->
+    <button id="sillyButton">点我一下</button>
+
+    <!-- JavaScript 代码 -->
+    <script>
+        // 获取按钮元素
+        let button = document.getElementById("sillyButton");
+
+        // 添加点击事件监听
+        button.addEventListener("click", function() {
+            // 弹出提示框，显示“笨蛋”
+            alert("笨蛋");
+        });
+    </script>
+
+</body>
+</html>
